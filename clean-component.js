@@ -3,7 +3,7 @@ class CleanComponent extends HTMLElement {
     super();
 
     const shadow = this.attachShadow({ mode: "open" });
-    const raiz = document.createElement("span");
+    const raiz = document.createElement("div");
     raiz.setAttribute("class", "raiz");
 
     const style = document.createElement("style");
